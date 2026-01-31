@@ -429,7 +429,7 @@ spec:
 ### Delete List Json6902
 api-deployment.yaml
 ```yaml
-aptVersion: apps/v1
+apiVersion: apps/v1
 kind: Deployment
 metadata:
     name: api-deployment
