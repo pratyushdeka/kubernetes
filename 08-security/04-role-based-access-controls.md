@@ -58,6 +58,7 @@ $ kubectl auth can-i delete nodes
 $ kubectl auth can-i create deployemnts --as dev-user
 $ kubectl auth can-i create pods --as dev-user
 $ kubectl auth can-i create pods --as dev-user --namespace test
+$ kubectl auth can-i list nodes --as michelle --namespace all 
 ```
 
 ## Resource Names
